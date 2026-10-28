@@ -1,0 +1,39 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.all {
+    width: 800px;  
+    margin: 20px auto;
+    border: 3px solid #333;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+
+.header{
+    border-bottom: 1px solid #333;
+    padding: 10px;
+}
+
+.middle{
+    display: flex;
+    flex:1;
+    border: none;
+}
+
+.content{
+    flex:1;
+}
+
+.sidebar{
+    width: 200px;
+    border-right: 3px solid #333;
+    order: -1; /*необходим для того чтобы sidebar стоял первым на сайте(по умолчанию у каждого элемента order=0)*/
+}
+
+.footer{
+    border-top: 1px solid #333;
+}

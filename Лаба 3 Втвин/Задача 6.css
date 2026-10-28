@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#f8f8f8;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;    /*высота  в % считая от окна браузера*/
+    margin: 0;
+}
+
+.form{
+    width: 320px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+.form button{
+    background-color: #1cdc11;
+    width: 100%;
+    padding:10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.form button:hover{
+    background-color: #14a20a;
+}
+
+.form input{
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}

@@ -1,0 +1,36 @@
+.main{
+    display: flex;
+    gap: 6px; /* отступы только врутри у всех элементов но не снаружи. Только внутри FlexBox*/
+    justify-content: center;
+    border: 1px solid #7ea0d6;
+    padding: 10px;
+    width: fit-content;
+    margin: 50px auto;
+}
+
+.main a{
+    width: 40px;
+    height: 40px;
+    background-color: #ddd;
+    color: #080606;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+body{
+    line-height: 1.5;
+    padding: 50px;
+}
+
+.main a:hover{
+    background-color: #ccc;
+}
+
+.main a.active{
+    background-color:#d10953 ;
+    color: #fff;
+}
+
